@@ -1,12 +1,16 @@
 header {
-  background: #1e2934;
-  color: #48bfa4;
+  background: #48bfa4;
+  color: #fff;
   padding: 5px;
 }
 
-h1 {
+body {
   background: #1e2934;
-  color: #ff697f;
+}
+
+h1 {
+  background: #48bfa4;
+  color: #fff;
   font-size: 20px;
   margin-bottom: 5px;
 }
@@ -16,22 +20,29 @@ p {
 }
 
 h2 {
-  background: #1e2934;
-  color: #ff697f;
+  background: #c28ce7;
+  color: #fff;
   font-size: 20px;
   margin-bottom: 5px;
 }
 
 h3 {
-  background: #1e2934;
-  color: #ff697f;
+  background: #48bfa4;
+  color: #fff;
   font-size: 20px;
   margin-bottom: 5px;
 }
 
 h4 {
-  background: #1e2934;
-  color: #ff697f;
+  background: #48bfa4;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+h5 {
+  background: #48bfa4;
+  color: #fff;
   font-size: 20px;
   margin-bottom: 5px;
 }

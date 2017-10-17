@@ -15,16 +15,6 @@ if (birthLower === 'yes' || birthLower === 'y') {
   alert('CORRECT! Off to a good start ' + user + '.');
 }
 
-var grandma = prompt('Is Dean\'s best friend his grandmother?');
-var grandmaLower = grandma.toLowerCase();
-console.log('Grandma rules:', grandmaLower);
-
-if (grandmaLower === 'yes' || grandmaLower === 'y') {
-  alert('CORRECT! Of course he is, she\'s the best!');
-} else {
-  alert('FALSE! What\'s the matter ' + user + '? Old people can\'t be cool too?');
-}
-
 var dogs = prompt('Does Dean love dogs?');
 var dogsLower = dogs.toLowerCase();
 console.log('Dog lover:', dogsLower);
@@ -43,6 +33,16 @@ if (travelLower === 'yes' || travelLower === 'y') {
   alert('DING DING DING! He drove from Florida to Seattle with his co-captain Winnie!');
 } else {
   alert('FALSE! He drove to Seattle from Florida to attend CodeFellows and learn how to write this very code.');
+}
+
+var grandma = prompt('Is Dean\'s best friend his grandmother?');
+var grandmaLower = grandma.toLowerCase();
+console.log('Grandma rules:', grandmaLower);
+
+if (grandmaLower === 'yes' || grandmaLower === 'y') {
+  alert('CORRECT! Of course he is, she\'s the best!');
+} else {
+  alert('FALSE! What\'s the matter ' + user + '? Old people can\'t be cool too?');
 }
 
 var skate = prompt('Is Dean an accomplished skater, surpassing even the great Brian Nations?');
