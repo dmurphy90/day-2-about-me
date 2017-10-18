@@ -1,7 +1,5 @@
 'use strict';
 
-var guesses = 0;
-
 var user = prompt('Greetings aspiring Historian of all things Dean. May I have your name?');
 console.log('Users name:', user);
 
@@ -56,3 +54,23 @@ if (skateLower === 'yes' || skateLower === 'y') {
 } else {
   alert('CORRECT! Dean could never surpass the great Brian Nations in skating, ever. Don\'t ask him to try... it\'s bad.');
 }
+
+var number;
+var guesses = 0;
+
+while (guesses < 5) {
+  number = parseInt(prompt('Tell me ' + user + ' what is Dean\'s favorite number?'));
+
+  if (number < 13) {
+    alert('Not quite there yet ' + user + ' try something a little higher');
+    guesses++;
+  } else if (number > 13) {
+    alert('Ooh a little too high with that one ' + user + ' try something a little lower');
+    guesses++;
+  } else {
+    guesses = 5;
+    alert('BINGO! Excellent guess ' + user + '!');
+  }
+}
+
+console.log('Guesses:', guesses);
