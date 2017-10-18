@@ -1,5 +1,7 @@
 'use strict';
 
+var guesses = 0;
+
 var user = prompt('Greetings aspiring Historian of all things Dean. May I have your name?');
 console.log('Users name:', user);
 
