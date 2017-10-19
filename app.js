@@ -102,5 +102,8 @@ while (intGuesses < 6) {
       flag = true;
       intGuesses = 7;
     }
+    // if (i = interests.length && flag === false) {
+    //   alert('You were incorrect');
+    // }
   }
 }
