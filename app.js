@@ -13,7 +13,7 @@ console.log('Birth answer:', birthLower);
 console.log('Score:', score);
 //
 if (birthLower === 'yes' || birthLower === 'y') {
-  score ++;
+  score++;
   alert('No ' + user + ', it\'s the 21st Century. He was delivered in a hospital by a doctor.');
 } else {
   alert('CORRECT! Off to a good start ' + user + '.');
@@ -74,9 +74,9 @@ while (numGuesses < 4) {
   } else if (number > 13) {
     alert('Ooh a little too high with that one ' + user + ' try something a little lower');
     numGuesses++;
-  }  else if (isNaN(number)) {
+  } else if (isNaN(number)) {
     alert('Come on now ' + user + ' I asked for a NUMBER!');
-  }  else {
+  } else {
     numGuesses = 4;
     alert('BINGO! Excellent guess ' + user + '!');
   }
@@ -102,8 +102,9 @@ while (intGuesses < 6) {
       flag = true;
       intGuesses = 7;
     }
-    // if (i = interests.length && flag === false) {
-    //   alert('You were incorrect');
-    // }
+    // i - is current index
+    if (i === interests.length && flag === false) {
+      alert('You were incorrect');
+    }
   }
 }
