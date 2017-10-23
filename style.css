@@ -1,76 +1,70 @@
-header {
-  color: #3d3d3f;
-  padding: 5px;
-  font-size: 50px;
-  font-weight: 900;
+/* app styles */
+body {
+  font-family: helvetica;
+  background: #0045ff
 }
 
-body {
-  background: #f0f0e0;
+header {
+  background: #444;
+  color: #fff6f6;
+  height: 80px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+header section {
+  width: 960px;
+  margin: 0 auto;
 }
 
 h1 {
-  color: #3d3d3f;
-  font-size: 30px;
-  padding: 10px;
-  font-weight: 800;
-  text-indent: 5px;
+  margin: 0px 381px;
 }
 
 h2 {
-  color: #3d3d3f;
-  font-size: 20px;
-  padding: 10px;
-  font-weight: 800;
-  text-indent: 5px;
+  margin: 10px 356px
 }
 
-h3 {
-  color: #3d3d3f;
-  font-size: 20px;
-  padding: 10px;
-  font-weight: 800;
-  text-indent: 10px;
-  text-indent: 10px;
+main {
+  width: 960px;
+  margin: 30px 180px;
 }
 
-h4 {
-  color: #3d3d3f;
-  font-size: 20px;
-  padding: 10px;
-  font-weight: 800;
-  text-indent: 10px;
+img.main-banner {
+  margin: 0 450px;
+}
+section.bio {
+    margin: 40px 0px 0px 425px;
+    color: #fff6f6;
+    font-weight: 600;
 }
 
-h5 {
-  color: #3d3d3f;
-  font-size: 20px;
-  padding: 10px;
-  font-weight: 800;
-  text-indent: 10px;
+section.education{
+  margin: 10px;
+  color: #fff6f6;
+  font-weight: 600;
 }
 
-h6 {
-  color: #3d3d3f;
-  font-size: 20px;
-  font-weight: 800;
-  text-indent: -30px;
+section.work-history {
+  margin: 0px 0px 0px 10px;
+  color: #fff6f6;
+  font-weight: 600;
 }
 
-p {
-  color: #7dce94;
-  font-weight: 700;
-  text-indent: 20px;
+section.bands {
+  float: right;
+  margin: -160px;
+  color: #fff6f6;
+  font-weight: 600;
 }
 
-ul {
-  color: #7dce94;
-  font-weight: 700;
-  text-indent: 1px;
+.sub-banners li {
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
 }
 
-ol {
-  color: #7dce94;
-  font-weight: 700;
-  text-indent: 0px;
+.sub-banners li:last-child {
+  margin-right: 0;
 }
